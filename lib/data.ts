@@ -12,7 +12,7 @@ export const GENERAL_INFO = {
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/Saeesh-Vele' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/saeesh-vele-a523aa307/' },
-    { name: 'facebook', url: '' },
+    { name: 'instagram', url: 'https://www.instagram.com/__saeesh__/' },
 ];
 
 export const MY_STACK = {
