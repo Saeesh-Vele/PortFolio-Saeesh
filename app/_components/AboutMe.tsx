@@ -71,7 +71,7 @@ const AboutMe = () => {
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                               I'm a Data Analyst and Machine Learning Engineer dedicated to turning data into actionable insights and intelligent solutions. I specialize in building predictive models and data-driven applications.
+                                I&apos;m a Data Analyst and Machine Learning Engineer dedicated to turning data into actionable insights and intelligent solutions. I specialize in building predictive models and data-driven applications.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
                                My approach focuses on building scalable, data-driven solutions tailored to business goals and analytical needs. By prioritizing accuracy, efficiency, and performance, I strive to deliver insights and intelligent systems that drive impactful results.

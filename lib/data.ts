@@ -6,7 +6,6 @@ export const GENERAL_INFO = {
     emailSubject: "Let's collaborate on a project",
     emailBody: 'Hi Saeesh, I am reaching out to you because...',
 
-    oldPortfolio: '',
     upworkProfile: 'https://www.upwork.com/freelancers/saeeshvele',
 };
 
@@ -14,7 +13,6 @@ export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/Saeesh-Vele' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/saeesh-vele-a523aa307/' },
     { name: 'facebook', url: '' },
-    { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
 ];
 
 export const MY_STACK = {
