@@ -104,6 +104,24 @@ export const MY_STACK = {
             icon: '/logo/aws.png',
         },
     ],
+    'data analytics': [
+        {
+            name: 'Excel',
+            icon: '/logo/excel.png',
+        },
+        {
+            name: 'Power BI',
+            icon: '/logo/powerbi.png',
+        },
+        {
+            name: 'Tableau',
+            icon: '/logo/tableau.png',
+        },
+        {
+            name: 'Streamlit',
+            icon: '/logo/streamlit.png',
+        },
+    ],
 };
 
 export const PROJECTS: IProject[] = [
