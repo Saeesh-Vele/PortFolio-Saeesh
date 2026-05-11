@@ -52,16 +52,26 @@ const Banner = () => {
                         </span>
                         . A Data Analyst and Machine Learning Engineer with 3+ years of experience in data analysis, predictive modeling, and building scalable AI-driven solutions.
                     </p>
-                    <Button
-                        as="link"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href={GENERAL_INFO.upworkProfile}
-                        variant="primary"
-                        className="mt-9 banner-button slide-up-and-fade"
-                    >
-                        Let&apos;s Talk
-                    </Button>
+                    <div className="flex gap-4 mt-9 banner-button slide-up-and-fade">
+                        <Button
+                            as="link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={GENERAL_INFO.upworkProfile}
+                            variant="primary"
+                        >
+                            Let&apos;s Talk
+                        </Button>
+                        <Button
+                            as="link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="/resume/SaeeshSandipVeleResume.pdf"
+                            variant="dark"
+                        >
+                            Resume
+                        </Button>
+                    </div>
 
                     <div className="flex items-center gap-2 mt-3">
                         <span className="size-3 rounded-full bg-white"></span>
