@@ -62,6 +62,8 @@ const Button = ({
         'no-color': '',
     }[variant || 'primary'];
 
+    const overlayColor = variant === 'dark' ? 'bg-primary' : 'bg-white';
+
     const iconClasses = cn(
         'min-w-9 aspect-square text-xl p-0 inline-flex items-center justify-center rounded-md',
         variantClasses,
@@ -85,7 +87,7 @@ const Button = ({
                     href={props.href.toString() || '#'}
                 >
                     {variant !== 'link' && (
-                        <span className="absolute top-[200%] left-0 right-0 h-full bg-white rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150"></span>
+                        <span className={`absolute top-[200%] left-0 right-0 h-full ${overlayColor} rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150`}></span>
                     )}
                     <span className="z-[1]">
                         {loading ? <Child icon={icon} /> : children}
@@ -97,7 +99,7 @@ const Button = ({
         return (
             <Link className={buttonClasses} {...props} href={props.href || '#'}>
                 {variant !== 'link' && (
-                    <span className="absolute top-[200%] left-0 right-0 h-full bg-white rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150"></span>
+                    <span className={`absolute top-[200%] left-0 right-0 h-full ${overlayColor} rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150`}></span>
                 )}
                 <span className="z-[1]">
                     {loading ? <Child icon={icon} /> : children}
@@ -110,7 +112,7 @@ const Button = ({
         return (
             <button className={buttonClasses} {...props}>
                 {variant !== 'link' && (
-                    <span className="absolute top-[200%] left-0 right-0 h-full bg-white rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150"></span>
+                    <span className={`absolute top-[200%] left-0 right-0 h-full ${overlayColor} rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150`}></span>
                 )}
                 <span className="z-[1]">
                     {loading ? <Child icon={icon} /> : children}
